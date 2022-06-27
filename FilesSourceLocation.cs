@@ -32,11 +32,13 @@ internal class FilesSourceLocation
         }
 
         FileInfo[] filesCollection = directory.GetFiles();
-
-        if (filesCollection.Count() == 0)
+        int filesCount = filesCollection.Count();
+        if (filesCount == 0)
         {
             throw new FileNotFoundException($"Directory {m_strFilesSourceLocationPath} contains no files.");
         }
+
+        System.Console.WriteLine($"{filesCount} files contains in folder {m_strFilesSourceLocationPath}");
 
         List<FileMetadata> fileMetadataList = new List<FileMetadata>();
 
@@ -52,6 +54,7 @@ internal class FilesSourceLocation
 
             fileMetadataList.Add(fm);
         }
+        System.Console.WriteLine($"Complete! {fileMetadataList.Count()} metadata files read.");
         return fileMetadataList;
     }
 }
