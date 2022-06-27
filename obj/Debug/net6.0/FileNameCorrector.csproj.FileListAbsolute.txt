@@ -1,0 +1,15 @@
+C:\Users\k\Documents\Source\FileNameCorrector\bin\Debug\net6.0\FileNameCorrector.exe
+C:\Users\k\Documents\Source\FileNameCorrector\bin\Debug\net6.0\FileNameCorrector.deps.json
+C:\Users\k\Documents\Source\FileNameCorrector\bin\Debug\net6.0\FileNameCorrector.runtimeconfig.json
+C:\Users\k\Documents\Source\FileNameCorrector\bin\Debug\net6.0\FileNameCorrector.dll
+C:\Users\k\Documents\Source\FileNameCorrector\bin\Debug\net6.0\FileNameCorrector.pdb
+C:\Users\k\Documents\Source\FileNameCorrector\obj\Debug\net6.0\FileNameCorrector.csproj.AssemblyReference.cache
+C:\Users\k\Documents\Source\FileNameCorrector\obj\Debug\net6.0\FileNameCorrector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\k\Documents\Source\FileNameCorrector\obj\Debug\net6.0\FileNameCorrector.AssemblyInfoInputs.cache
+C:\Users\k\Documents\Source\FileNameCorrector\obj\Debug\net6.0\FileNameCorrector.AssemblyInfo.cs
+C:\Users\k\Documents\Source\FileNameCorrector\obj\Debug\net6.0\FileNameCorrector.csproj.CoreCompileInputs.cache
+C:\Users\k\Documents\Source\FileNameCorrector\obj\Debug\net6.0\FileNameCorrector.dll
+C:\Users\k\Documents\Source\FileNameCorrector\obj\Debug\net6.0\refint\FileNameCorrector.dll
+C:\Users\k\Documents\Source\FileNameCorrector\obj\Debug\net6.0\FileNameCorrector.pdb
+C:\Users\k\Documents\Source\FileNameCorrector\obj\Debug\net6.0\FileNameCorrector.genruntimeconfig.cache
+C:\Users\k\Documents\Source\FileNameCorrector\obj\Debug\net6.0\ref\FileNameCorrector.dll
