@@ -1,17 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-string str_ftl = @"C:\Users\k\Desktop\test";
+﻿string str_ftl = @"C:\Users\k\Desktop\test";
 
-
-
+System.Console.WriteLine("Read files list");
 FilesSourceLocation filesSourceLocation = new FilesSourceLocation(str_ftl);
 List<FileMetadata> metadataList = filesSourceLocation.GetMetaDataList();
 
-System.Console.WriteLine("Hello");
-// MetadataAnalizer metadataAnalizer = new MetadataAnalizer();
-// metadataAnalizer.LoadMedadataList(metadataList);
-// metadataAnalizer.AnalizeData();
-// Dictionary<string, string> fileNamesDictionary = metadataAnalizer.CreateNewFileNamesDictionary();
+System.Console.WriteLine("Analize metadata");
+MetadataAnalizer metadataAnalizer = new MetadataAnalizer(metadataList);
+List<FileInfo> fileInfoList = metadataAnalizer.AnalizeAndCreateNewFileNamesList();
 
 
 // TargetFiles targetFiles = new TargetFiles();
