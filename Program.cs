@@ -8,10 +8,6 @@ System.Console.WriteLine("Analize metadata");
 MetadataAnalizer metadataAnalizer = new MetadataAnalizer(metadataList);
 List<FileInfo> fileInfoList = metadataAnalizer.AnalizeAndCreateNewFileNamesList();
 
-
-// TargetFiles targetFiles = new TargetFiles();
-// targetFiles.CreateDictionary();
-// targetFiles.CreateBaseOn(fileNamesDictionary);
-
-
-
+System.Console.WriteLine("Creating new file base on oryginal file");
+TargetFiles targetFiles = new TargetFiles(fileInfoList);
+targetFiles.Create();
