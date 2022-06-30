@@ -19,13 +19,13 @@ internal class MetadataAnalizer
         return strNewFileNameProposal;
     }
 
-    public List<FileInfo> AnalizeAndCreateNewFileNamesList()
+    public List<OutputFileInfo> AnalizeAndCreateNewFileNamesList()
     {
-        List<FileInfo> resultFileInfoList = new List<FileInfo>();
+        List<OutputFileInfo> resultFileInfoList = new List<OutputFileInfo>();
 
         foreach (FileMetadata fileMetadata in m_fileMetadataList)
         {
-            FileInfo fileInfo = new FileInfo();
+            OutputFileInfo fileInfo = new OutputFileInfo();
             fileInfo.NewFileNameProposal = AnalizeAndPrepareFileNameProposal(fileMetadata);
             fileInfo.OryginalFilePath = fileMetadata.FilePath;
 

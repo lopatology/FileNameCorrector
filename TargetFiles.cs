@@ -1,10 +1,10 @@
 public class TargetFiles
 {
-    private List<FileInfo> m_sourceFileInfo;
+    private List<OutputFileInfo> m_sourceFileInfo;
 
-    public TargetFiles(List<FileInfo> sourceFileInfo)
+    public TargetFiles(List<OutputFileInfo> sourceFileInfo)
     {
-        m_sourceFileInfo = sourceFileInfo;        
+        m_sourceFileInfo = sourceFileInfo;
     }
 
     public void Create()

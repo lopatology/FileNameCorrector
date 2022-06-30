@@ -6,7 +6,7 @@ List<FileMetadata> metadataList = filesSourceLocation.GetMetaDataList();
 
 System.Console.WriteLine("Analize metadata");
 MetadataAnalizer metadataAnalizer = new MetadataAnalizer(metadataList);
-List<FileInfo> fileInfoList = metadataAnalizer.AnalizeAndCreateNewFileNamesList();
+List<OutputFileInfo> fileInfoList = metadataAnalizer.AnalizeAndCreateNewFileNamesList();
 
 System.Console.WriteLine("Creating new file base on oryginal file");
 TargetFiles targetFiles = new TargetFiles(fileInfoList);
