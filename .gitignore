@@ -1,0 +1,9 @@
+bin
+obj
+Debug
+obj/Debug/net6.0
+bin/Debug/net6.0
+tests/Tests.FileNameCorrector/obj
+tests/Tests.FileNameCorrector/obj/Debug/net6.0
+obj/Debug/net6.0/FileNameCorrector.csproj.FileListAbsolute.txt
+obj/Debug/net6.0/FileNameCorrector.csproj.AssemblyReference.cache
