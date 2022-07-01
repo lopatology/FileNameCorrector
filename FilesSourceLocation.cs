@@ -1,5 +1,5 @@
 // See https://aka.ms/new-console-template for more information
-internal class FilesSourceLocation
+public class FilesSourceLocation
 {
     /// <summary>
     /// Source files directory path
@@ -22,7 +22,7 @@ internal class FilesSourceLocation
     /// </summary>
     /// <returns>Files metadata list</returns>
     /// <exception cref="FileLoadException"></exception>
-    internal List<FileMetadata> GetMetaDataList()
+    public List<FileMetadata> GetMetaDataList()
     {
         DirectoryInfo directory = new DirectoryInfo(m_strFilesSourceLocationPath);
 
