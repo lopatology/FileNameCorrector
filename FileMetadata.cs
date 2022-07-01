@@ -1,5 +1,5 @@
 // See https://aka.ms/new-console-template for more information
-internal class FileMetadata
+public class FileMetadata
 {
     public DateTime CreationTime { get; internal set; }
     public DateTime CreationTimeUtc { get; internal set; }
