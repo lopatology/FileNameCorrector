@@ -7,3 +7,7 @@ tests/Tests.FileNameCorrector/obj
 tests/Tests.FileNameCorrector/obj/Debug/net6.0
 obj/Debug/net6.0/FileNameCorrector.csproj.FileListAbsolute.txt
 obj/Debug/net6.0/FileNameCorrector.csproj.AssemblyReference.cache
+.vscode
+*.exe
+*.dll
+
