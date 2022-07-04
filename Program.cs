@@ -11,3 +11,6 @@ List<OutputFileInfo> fileInfoList = metadataAnalizer.AnalizeAndCreateNewFileName
 System.Console.WriteLine("Creating new file base on oryginal file");
 TargetFiles targetFiles = new TargetFiles(fileInfoList);
 targetFiles.Create();
+
+System.Console.WriteLine("Press aby key to end");
+System.Console.ReadLine();
