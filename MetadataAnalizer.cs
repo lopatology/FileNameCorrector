@@ -7,9 +7,10 @@ internal class MetadataAnalizer
         m_fileMetadataList = fileMetadataList;
     }
 
-    private string AnalizeAndPrepareFileNameProposal(FileMetadata fileMetadata)
+    private string CreateBestNameForNewFile(FileMetadata fileMetadata)
     {
-        string strNewFileNameProposal = string.Empty;
+        string strNewFileNameProposal = PickTheBestNameForNewFile(fileMetadata);
+
         // if(fileMetadata.CreationTime)
         // if(fileMetadata.CreationTimeUtc)
         // if(fileMetadata.LastWriteTime)
@@ -26,7 +27,7 @@ internal class MetadataAnalizer
         foreach (FileMetadata fileMetadata in m_fileMetadataList)
         {
             OutputFileInfo fileInfo = new OutputFileInfo();
-            fileInfo.NewFileNameProposal = AnalizeAndPrepareFileNameProposal(fileMetadata);
+            fileInfo.NewFileNameProposal = CreateBestNameForNewFile(fileMetadata);
             fileInfo.OryginalFilePath = fileMetadata.FilePath;
 
             resultFileInfoList.Add(fileInfo);
