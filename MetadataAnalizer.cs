@@ -9,7 +9,7 @@ internal class MetadataAnalizer
 
     private string CreateBestNameForNewFile(FileMetadata fileMetadata)
     {
-        string strNewFileNameProposal = PickTheBestNameForNewFile(fileMetadata);
+        string strNewFileNameProposal = string.Empty;
 
         // if(fileMetadata.CreationTime)
         // if(fileMetadata.CreationTimeUtc)
