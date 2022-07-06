@@ -1,3 +1,5 @@
+using System.Linq;
+
 internal class MetadataAnalizer
 {
     List<FileMetadata> m_fileMetadataList;
@@ -11,7 +13,9 @@ internal class MetadataAnalizer
     {
         string strNewFileNameProposal = string.Empty;
 
-        // if(fileMetadata.CreationTime)
+        DateTime oldestDate = fileMetadata.ListOfDates.where(x => x != null).OrderByDescending().FirstOrDefault();
+        
+        // fileMetadata.CreationTime)
         // if(fileMetadata.CreationTimeUtc)
         // if(fileMetadata.LastWriteTime)
         // if(fileMetadata.LastWriteTimeUtc)
